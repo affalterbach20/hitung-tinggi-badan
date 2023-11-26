@@ -36,7 +36,7 @@ if jenis_kelamin == "Laki-laki":
     input_tb()
     tb = ((tb_ibu + 13 + tb_ayah) / 2)
     hitung_tb()
-else:
+elif jenis_kelamin == "Perempuan":
     input_tb()
     tb = ((tb_ayah - 13 + tb_ibu) / 2)
     hitung_tb()
