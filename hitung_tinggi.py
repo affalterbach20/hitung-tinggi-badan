@@ -4,17 +4,21 @@ from PIL import Image
 st.subheader("Aplikasi Sederhana")
 st.text("Muhammad Sultan Al Faritz")
 st.title("Kalkulator Tinggi Potensi Genetik")
-st.image("tinggi badan.webp",width=600)
+st.image("tinggi badan.webp",width=400)
 st.text("")
-st.text("""Ini adalah program untuk menghitung range(minimum dan maksimum) tinggi badan anda.
+st.text("""Ini adalah program untuk menghitung range
+(minimum dan maksimum) tinggi badan anda.
 --------------------------------------------------------------------------------------------
-Tinggi badan seseorang tidak terlepas dari faktor genetik. Terkadang seseorang 
-menginginkan tinggi badan yang lebih. padahal, beliau sudah berada pada tinggi
-badan maksimum. Sebaliknya, terkadang seseorang menganggap bahwa dirinya sudah 
-berada pada tinggi badan maksimum. Padahal, tinggi badannya masih jauh dibawah
-tinggi maksimum dirinya, yang artinya masih memiliki potensi untuk mencapai 
-tinggi badan maksimum. Dan tentunya untuk menambah tinggi badan, anda harus
-berada dalam masa pertumbuhan. Berikut kalkulator tinggi potensi genetik.
+Tinggi badan seseorang tidak terlepas dari faktor genetik.
+Terkadang seseorang menginginkan tinggi badan yang lebih. 
+padahal, beliau sudah berada pada tinggi badan maksimum. 
+Sebaliknya, terkadang seseorang menganggap bahwa dirinya 
+sudah berada pada tinggi badan maksimum. Padahal, tinggi 
+badannya masih jauh dibawah tinggi maksimum dirinya, yang 
+artinya masih memiliki potensi untuk mencapai tinggi badan 
+maksimum. Dan tentunya untuk menambah tinggi badan anda,
+anda harus berada dalam masa pertumbuhan. Berikut ini 
+kalkulator tinggi potensi genetik.
 --------------------------------------------------------------------------------------------""")
 def input_tb():
     global tb_ayah
